@@ -31,4 +31,4 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
             cd home
-            sudo mv -f * /var/www/html
+            sudo cp -R * /var/www/html
